@@ -1,0 +1,58 @@
+.footer {
+    &--fixed {
+        position: fixed;
+        bottom: 20px;
+        z-index: 15;
+        display: none;
+        max-width: 1700px;
+        @include under(md) {
+            position: static;
+        }
+    }
+    &--uppercase {
+        text-transform: uppercase;
+    }
+    &__container {
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+    &__container-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        padding: 10px 0px;
+    }
+    &__newsletter {
+        background-color: c(opacity);
+        width: 100%;
+        z-index: 30;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        &-form {
+            max-width: 270px;
+            margin-left: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            vertical-align: middle;
+            margin-top: 6px;
+                    }
+    }
+    &__submit {
+        text-align: right;
+        min-width: calc(100% - 193px);
+        border: 0;
+        background: transparent;
+    }
+}

@@ -1,0 +1,18 @@
+.restaurants {
+    &__img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 173px;
+        object-fit: cover;
+        object-position: center;
+    }
+    &__label {
+        @extend %label-restaurant;
+        text-align: center;
+        margin: 28px auto 40px auto;
+    }
+    &--no-active-modal{
+      cursor: default;
+    }
+}

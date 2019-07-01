@@ -1,0 +1,204 @@
+
+.about {
+  &__grid{
+    display: grid;
+    grid-template-columns: 1.45fr 3fr;
+    @include under(md) {
+        grid-template-columns: 1fr;
+    }
+    grid-column-gap: 25px;
+    padding: 0 25px;
+  }
+  &__col{
+    &--sml{
+      padding-left: 80px;
+      @include under(four){
+          padding-left: 0px;
+      }
+    }
+    &--big{
+      padding-left: 30px;
+      @include under(md){
+          padding: 75px;
+      }
+      @include under(sm){
+          padding: 0;
+      }
+    }
+  }
+    &__paragraph {
+        @extend %paragraph;
+        b,strong {
+            font-weight: bold;
+        }
+        em,i {
+            font-style: italic;
+        }
+        u {
+            text-decoration: underline;
+        }
+        p {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        padding-top: 33px;
+        padding-bottom: 24px;
+        @include under(md) {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        &--image{
+            padding-top: 30px;
+            //max-width: 293px;
+            margin-right: 30px;
+            margin-left: 17px;
+              @include under(md) {
+                margin-left: 0;
+              }
+              @include under(smaller) {
+                margin: 0 auto;
+                padding-top: 50px;
+              }
+        }
+        &--image-right{
+            padding-top: 47px;
+            max-width: 480px;
+
+        }
+    }
+    &__link {
+        @extend %link-sm;
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        @include under(md) {
+            flex-direction: row;
+        }
+    }
+    &__images {
+        display: flex;
+        flex-direction: row;
+        padding-right: 140px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        @include under(md) {
+            padding-top: 50px;
+        }
+        @include under(sm) {
+            padding-right: 0;
+        }
+        @include under(smaller) {
+            flex-direction: column;
+        }
+    }
+    &__image {
+        object-fit: cover;
+        object-position: center;
+        &--left {
+            max-width: 350px;
+            width: 100%;
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            height: auto;
+            @include under(four) {
+                max-width: 300px;
+            }
+            @include under(middle) {
+                margin-top: 0;
+            }
+            @include under(smaller) {
+                margin-left: auto;
+            }
+        }
+        &--center {
+            width: 100%;
+            max-width: 295px;
+            height: 248.5px;
+            //margin-right: auto;
+            //margin-left: auto;
+            @include under(middle) {
+                //align-self: center;
+            }
+            @include under(smaller) {
+                margin-right: 0;
+                margin-top: 5%;
+            }
+        }
+        &--right {
+            width: 100%;
+            max-width: 495px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 253px;
+            // transform: translateY(-65%);
+            @include under(middle) {
+                transform: translateY(0%);
+                margin-right: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            @include under(md) {
+                margin-right: 0;
+            }
+            @include under(smaller) {
+                margin-right: auto;
+                margin-left: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                max-width: 100%;
+            }
+        }
+        &--with-text{
+            width: 100%;
+            max-width: 305px;
+            height: 368px;
+            margin-right: 0;
+            margin-left: auto;
+            @include under(four) {
+                height: 288px;
+                //align-self: center;
+            }
+        }
+        &--container{
+            width: calc(100% - 330px);
+            max-width: 350px;
+            margin-left: auto;
+            @include under(four) {
+                max-width: 250px;
+            }
+            @include under(smaller) {
+              width: 100%;
+              max-width: 100%;
+              margin-right: 0;
+              margin-left: 0;
+              margin-top: 50px;
+            }
+        }
+        &--container-down{
+            margin-right: 0;
+            margin-left: auto;
+            max-width: 820px;
+            display: flex;
+            align-items: center;
+            @include under(smaller) {
+                margin-right: 0;
+                margin-top: 5%;
+                flex-direction: column-reverse;
+            }
+        }
+    }
+    &__title {
+      @include under(md){
+          text-align: center;
+      }
+            padding-top: 62px;
+
+    }
+}

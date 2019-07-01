@@ -1,0 +1,17 @@
+%title, .title {
+    font-family: 'styrene';
+    font-size: 22px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: c();
+    @include under(xs) {
+        font-size: 18px;
+    }
+}
+%title-about, .title-about {
+    @extend %title;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+}

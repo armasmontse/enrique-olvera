@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: - Enrique Olvera Theme -\n"
+"POT-Creation-Date: 2019-06-04 13:41-0500\n"
+"PO-Revision-Date: 2019-06-04 13:42-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/CltvoAjaxMail.php:110
+msgid "Error en envío."
+msgstr "Send error"
+
+#: ajax/CltvoAjaxMail.php:135
+msgid "Correo incorrecto"
+msgstr "Wrong email"
+
+#: ajax/CltvoAjaxMail.php:144
+msgid "- No hubo mensaje escrito -"
+msgstr "There were write email"
+
+#: ajax/CltvoAjaxMail.php:162
+msgid "Gracias por tu mensaje. Nos comunicaremos contigo pronto."
+msgstr "Thank you for your message. Soon we will communicate with you"
+
+#: ajax/CltvoAjaxMail.php:177
+msgid "Error en el envío"
+msgstr "Error while sending"
+
+#: ajax/CltvoAjaxMail.php:182
+msgid "¡Gracias!"
+msgstr "Thanks!"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:55
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:53
+msgid "Izquierda "
+msgstr "Left"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:56
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:54
+msgid "izquierda "
+msgstr "Left"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:59
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:57
+msgid "Derecha "
+msgstr "Right"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:60
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:58
+msgid "derecha "
+msgstr "Right"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:65
+msgid "Abajo "
+msgstr "Bottom"
+
+#: functions/admin/metaboxes/Cltvo_About_Images.php:66
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:64
+msgid "abajo "
+msgstr "bottom"
+
+#: functions/admin/metaboxes/Cltvo_Gallery.php:55
+#, fuzzy
+#| msgid "Potografías "
+msgid "Fotografías "
+msgstr "Photographies"
+
+#: functions/admin/metaboxes/Cltvo_Restaurants_Images.php:63
+msgid "Abajo o al centro"
+msgstr "bottom or down"
+
+#: functions/admin/metaboxes/Cltvo_Restaurants_Location.php:50
+msgid "Ubicación"
+msgstr "Location"
+
+#: functions/admin/metaboxes/Cltvo_Restaurants_Location.php:58
+msgid "Página"
+msgstr "Page"
+
+#: functions/admin/metaboxes/Cltvo_Restaurants_Location.php:62
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:111
+msgid "Nombre"
+msgstr "Name"
+
+#: functions/admin/metaboxes/Cltvo_Restaurants_Location.php:71
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:120
+msgid "Link"
+msgstr "Link"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:46
+msgid "Clik en la imagen para cambiar "
+msgstr "Click on the image to change"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:60
+msgid "Agregar "
+msgstr "Add"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:63
+msgid "Remover "
+msgstr "Remove"
+
+#: functions/special_pages.php:141
+msgid "You cant delete this page."
+msgstr "You cant delete this page."
+
+#: header.php:14
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/templates/footer.php:35
+msgid "Suscripción al diario"
+msgstr "Subscribe to the journal"
+
+#: inc/templates/footer.php:81
+msgid "Enviar"
+msgstr "Send"
+
+#: inc/templates/header.php:25 inc/templates/header.php:26
+#: inc/templates/header.php:38 inc/templates/header.php:39
+#: inc/templates/restaurants.php:1
+msgid "restaurantes"
+msgstr "Restaurants"
+
+#: inc/templates/header.php:28 inc/templates/header.php:29
+#: inc/templates/header.php:41 inc/templates/header.php:42
+msgid "diario"
+msgstr "journal"
+
+#: inc/templates/modal.php:20
+msgid "Official site"
+msgstr "Official site"
+
+#. Theme Name of the plugin/theme
+msgid "- Enrique Olvera Theme -"
+msgstr "- Enrique Olvera Theme -"
+
+#. Description of the plugin/theme
+msgid "Configuración básica para cualquier tema desarrollado por El Cultivo"
+msgstr "Basic configuration for any theme developed by El Cultivo"
+
+#. Author of the plugin/theme
+msgid "El Cultivo"
+msgstr "El Cultivo"
+
+#. Author URI of the plugin/theme
+msgid "http://elcultivo.mx"
+msgstr "http://elcultivo.mx"
+
+#~ msgid "Contacto"
+#~ msgstr "Contact"
+
+#~ msgid "Newsletter"
+#~ msgstr "Newsletter"

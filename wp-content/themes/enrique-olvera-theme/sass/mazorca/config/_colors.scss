@@ -1,0 +1,16 @@
+$colors: (
+	base:	#000000,
+	white:	#FFFFFF,
+	blue: 	#e5e6e5,
+	opacity: rgba(229,230,229,0.8)
+);
+
+@function c($color:base) {
+	@return map-get($colors, $color);
+}
+
+//no borrar
+$colorForeground: c();
+$colorBackground: c(white);
+$colorFeatured: c(base);
+$colorError: #8A1010;

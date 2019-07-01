@@ -1,0 +1,49 @@
+%link-menu, .link-menu {
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'styrene';
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: c();
+}
+%link-language, .link-language {
+	@extend %link-menu;
+	font-size: 10px;
+	line-height: 13px;
+}
+%link-sm, .link-sm {
+	@extend %link-menu;
+	font-family: 'caponi';
+	font-size: 11px;
+	line-height: 22px;
+}
+%link-footer, .link-footer {
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'styrene';
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: c();
+	display: block;
+	//@extend %link-menu;
+}
+.inline-link{
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'styrene';
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: c();
+	display: contents;
+}
+%link-website, .link-website {
+    @extend %label-country;
+    letter-spacing: 0px;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-transform: none !important;
+	cursor: pointer;
+}
